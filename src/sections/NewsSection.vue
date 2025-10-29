@@ -74,7 +74,7 @@ function sortById(records) {
 
 const fetchNews = async () => {
   try {
-    const response = await fetch('http://localhost:8000/api/news');
+    const response = await fetch('https://zayac.tech/ibgapi/news');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
@@ -112,7 +112,7 @@ const chunkArray = (array, chunkSize) => {
 const chunkedNews = computed(() => chunkArray(newsItems.value, 3));
 
 const newsImage = (images) => {
-  return images.length > 0 ? `http://localhost:8000${images[0].url}` : '';
+  return images.length > 0 ? `https://zayac.tech${images[0].url}` : '';
 };
 
 onMounted(() => {

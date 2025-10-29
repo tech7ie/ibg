@@ -95,6 +95,6 @@ const navigateToNext = () => {
 };
 
 const newsImage = (images) => {
-  return images.length > 0 ? `http://localhost:8000${images[0].url}` : '';
+  return images.length > 0 ? `https://zayac.tech${images[0].url}` : '';
 };
 </script>
