@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --black: rgba(10, 30, 59, 1);
+    --aqua: rgba(34, 176, 189, 1);
+    --green: rgba(5, 194, 112, 1);
+    --gray: rgba(226, 233, 243, 1);
+    --deep-dark: rgba(3, 14, 31, 1);
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 56px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 56px;
+}
+
+button, input, a {
+
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.justyfy-start {
+    justify-content: flex-start;
+}
+.justy-center {
+    justify-content: center;
+}
+.alitems-center {
+    align-items: center;
+}
+.alitems-start {
+    align-items: flex-start;
+}
+
+body {
+font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  color: var(--black);
+  margin: 0;
+  background-color: #FFF;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.off-scroll{
+    scrollbar-width: none; /* Firefox */
+}
+.off-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+@media only screen and (max-width: 777px) {
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+button, input, a {
+
+    margin: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+}
