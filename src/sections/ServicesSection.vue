@@ -8,7 +8,7 @@
             <div class="flex-col medium-gap">
                 <div class="mobile-wrap-column medium-gap" style="word-wrap: break-word;">
                     <ServiceCard style="flex: 1;" title="Ведение бухучёта" body="Первичка, учёт доходов и расходов, закрытие периода, отчётность по стандартам вашей юрисдикции." :icon="iconMedal"></ServiceCard>
-                    <ServiceCard style="flex: 1;" title="Расчётность" body="Расчёт налогов, подача деклараций, сверки с ИФНС, сопровождение камеральных проверок." :icon="BilImg"></ServiceCard>
+                    <ServiceCard style="flex: 1;" title="Расчётность" body="Расчёт налогов, подача деклараций, сверки с налоговыми органами, сопровождение камеральных и налоговых проверок." :icon="BilImg"></ServiceCard>
                     <ServiceCard style="flex: 1;" title="Зарплата и кадры" body="Расчёт заработной платы, отпусков, больничных; кадровое делопроизводство и отчётность." :icon="Humans"></ServiceCard>
                     </div>
                     <div class="mobile-wrap-column medium-gap" style="word-wrap: break-word;">

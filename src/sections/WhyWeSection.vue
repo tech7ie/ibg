@@ -6,10 +6,10 @@
                 <div style="background-color: aqua; height: 2px; border-radius: 2px; width: 120px;"></div>
             </div>
             <div class="flex-row alitems-center wrap-why-cards-mobile hide-why medium-gap" style="width: 100%;">
-                <WhyWeCard style="flex: 1;" :img="whyDiamond" title="Более 1000" body="клиентов" />
-                <WhyWeCard style="flex: 1;" :img="Ckeckmark" title="8 лет опыта" body="на рынке" />
-                <WhyWeCard style="flex: 1;" :img="People" title="Более 90" body="сотрудников" />
-                <WhyWeCard style="flex: 1;" :img="Location" title="12 стран" body="мира" />
+                <WhyWeCard style="flex: 1;" :img="whyDiamond" title="погружение в бизнес"  />
+                <WhyWeCard style="flex: 1;" :img="Ckeckmark" title="поддержка и консультации"  />
+                <WhyWeCard style="flex: 1;" :img="People" title="индивидуальный подход"  />
+                <WhyWeCard style="flex: 1;" :img="Location" title="выгодное сотрудничество" />
             </div>
             <div class="mobile-wrap-column alitems-center show-why medium-gap" style="width: 100%;">
                 <div class="wrap-why-cards-mobile flex-col alitems-center medium-gap" style="width: 100%;">

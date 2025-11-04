@@ -8,7 +8,7 @@
             <div class="flex-col medium-gap" style="width: 100%;">
                 <div class="mobile-wrap-column medium-gap">
                     <YouGetCard style="flex: 1;" text="Персональный бухгалтер и контроль качества старшим партнёром" />
-                    <YouGetCard style="flex: 1;" text="Работаем в ваших системах: 1С, SAP, Bitrix24, Excel" />
+                    <YouGetCard style="flex: 1;" text="Работаем в ваших системах: 1С, Bitrix24, Excel" />
                 </div>
                 <div class="mobile-wrap-column medium-gap">
                     <YouGetCard style="flex: 1;" text="Договорная ответственность и конфиденциальность" />
