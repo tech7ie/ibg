@@ -1,1 +1,0 @@
-import{N as e}from"./NewsSection-S-LGli5s.js";import{c as t,a as o,d as s,o as a}from"./index-TKRHryGK.js";import"./Button-08BK0-lw.js";const c={class:"flex-col alitems-center",style:{width:"100%","margin-top":"40px","margin-bottom":"40px"}},_={__name:"NewsView",setup(r){return(n,i)=>(a(),t("div",c,[o("section",null,[s(e,{cropped:!1})])]))}};export{_ as default};
